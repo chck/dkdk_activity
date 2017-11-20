@@ -14,6 +14,9 @@ BOT_NAME = 'dkdk_activity'
 SPIDER_MODULES = ['dkdk_activity.spiders']
 NEWSPIDER_MODULE = 'dkdk_activity.spiders'
 
+MCOM_EMAIL = 'candysynd@gmail.com'
+MCOM_PW = 'Shares030'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'dkdk_activity (+http://www.yourdomain.com)'
@@ -27,7 +30,7 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+# DOWNLOAD_DELAY = 3
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
